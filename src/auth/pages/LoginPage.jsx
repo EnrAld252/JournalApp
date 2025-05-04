@@ -33,7 +33,7 @@ export const LoginPage = () => {
   }
   return (
 
-    <AuthLayout title="Login">
+    <AuthLayout title="Logins">
       <form onSubmit={onSubmit} className='animate__animated animate__fadeIn animate_faster'>
         <Grid container>
           <Grid item size={{ xs: 12, md: 12 }} sx={{ mt: 2 }}>
